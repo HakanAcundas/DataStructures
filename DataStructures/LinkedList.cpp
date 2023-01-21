@@ -119,18 +119,18 @@ void LinkedList::setHead(Node* nodeptr)
 	head = nodeptr;
 }
 
-int main()
-{
-	LinkedList ls;
-	ls.Insert(1);
-	ls.Insert(2);
-	ls.Insert(0);
-	ls.Insert(-1);
-
-	ls.InsertIndex(1, 55);
-
-	ls.Delete(1);
-
-	ls.Print();
-}
+//int main()
+//{
+//	LinkedList ls;
+//	ls.Insert(1);
+//	ls.Insert(2);
+//	ls.Insert(0);
+//	ls.Insert(-1);
+//
+//	ls.InsertIndex(1, 55);
+//
+//	ls.Delete(1);
+//
+//	ls.Print();
+//}
 
